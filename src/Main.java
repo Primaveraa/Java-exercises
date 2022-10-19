@@ -23,9 +23,9 @@ public class Main {
             licznik = licznik + 1;
         }
         while (isHit == false && licznik < 5);
-
-        System.out.println("The end");
-
+        if (licznik >= 5){
+            System.out.println("The end");
+        }
     }
 }
 
