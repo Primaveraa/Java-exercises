@@ -3,7 +3,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        boolean isHit = false;
+        //Number.tryNumbers();
+        Average.numberAverage();
+
+
+
+ /*       boolean isHit = false;
         int licznik = 0;
         do {
             Scanner scan = new Scanner(System.in);
@@ -11,7 +16,7 @@ public class Main {
             int user_number = scan.nextInt();
 
             Random number = new Random();
-            int number_drawn = number.nextInt(1);
+            int number_drawn = number.nextInt(101); //wybraliśmy numer np 3 - program wybiera
             System.out.println(number_drawn);
 
             if (user_number == number_drawn) {
@@ -25,7 +30,7 @@ public class Main {
         while (isHit == false && licznik < 5);
         if (licznik >= 5){
             System.out.println("The end");
-        }
+        }*/
     }
 }
 
