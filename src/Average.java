@@ -12,6 +12,7 @@ public class Average {
             System.out.println("Pick a 5 numbers");
             int user_number = scan.nextInt();
             numbers[i]=user_number;
+
         }
         Arrays.stream(numbers).average().orElse(Double.NaN);
         System.out.println(Arrays.stream(numbers).average().orElse(Double.NaN));
