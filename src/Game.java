@@ -21,6 +21,7 @@ public class Game {
                 canUserTry = false;}
         } while (canUserTry == true);
 
+
        /* while (canUserTry) {
             System.out.println("Give a numeber");
             int userNumber = scanner.nextInt();
